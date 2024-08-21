@@ -23,25 +23,31 @@ ul {
     padding-left: 20px;
     list-style-type: none;
 }
-
-ul.social-links {
-    list-style: none;
-    padding-left: 0;
-}
-
-ul.social-links li {
-    margin-bottom: 10px;
-}
-
-ul.social-links a {
-    color: #0073b1; 
-    text-decoration: none;
-}
-
 ul.social-links a:hover {
     text-decoration: underline;
 }
 .nav-links ul li a {
     text-decoration: none;
-    color: #0056b3;
+    color: #2a7fda;
+}
+#formulario {
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #e4dedefd;
+    border-radius: 3cap;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.1;
+    max-width: fit-content;
+}
+.story-img-container {
+    float: right; 
+    text-align: right;
+    border-collapse: collapse; 
+}
+.story-img {
+    max-width: 100%; /* Garante que a imagem não exceda o container */
+    height: auto; /* Manter a proporção da imagem */
+    margin: 20px auto; 
+    border-radius: 10pc;
 }

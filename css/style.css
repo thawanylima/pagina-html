@@ -26,7 +26,7 @@ ul, ol, li {
     float: right; 
     text-align: right;
     border-spacing: 0; /* espaçamento entre células */
-    border-collapse: collapse; /* Colapsa as bordas das células */
+    border-collapse: collapse; 
     margin: 0; /* Remove margem extra */
     padding: 8px; /*  espaçamento interno */
 }
@@ -42,15 +42,21 @@ ul, ol, li {
 }
 .nav-links ul li a {
     text-decoration: none;
-    color: #0056b3;
+    color: #2a7fda;
 }
 .links a {
     color: #0056b3;
     text-decoration: none;
 }
-.links a:hover {
-    text-decoration: underline;
-}
 .clear {
     clear: both;
+}
+#formulario {
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #e4dedefd;
+    border-radius: 3cap;
+    text-align: center;
+    font-size: 20px;
+    max-width: fit-content;
 }

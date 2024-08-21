@@ -14,13 +14,20 @@
             <h1>Sobre o autor</h1>
         </header>
         <div id="content">
+            <table class="story-img-container">
+                <tbody>
+                <tr>
+                <td><img class="story-img" src="images/selfie.jpg" width="210"></td>
+                </tr>
+                </tbody>
+            </table>
             <section id="sobre">
-                <h2 class="title">Quem Sou Eu</h2>
+                <h1 class="title">Quem Sou Eu</h1>
                 <p>Olá! Meu nome é Thawany Lima e sou estudante de graduação em Sistemas de Informação. Tenho 23 anos e estou no início da minha jornada no desenvolvimento de software.</p>
                 
-                <p>Minha jornada acadêmica tem sido enriquecedora e desafiadora. Estou focado no desenvolvimento full stack, o que significa que estou aprendendo a criar aplicações completas, desde o front-end até o back-end. No momento, estou aprofundando meus conhecimentos em HTML e CSS, que são as bases para construir interfaces web eficazes e atraentes.</p>
+                <p>Minha jornada acadêmica tem sido enriquecedora e desafiadora. Estou focando no desenvolvimento full stack, o que significa que estou aprendendo a criar aplicações completas, desde o front-end até o back-end. No momento, estou aprofundando meus conhecimentos em HTML e CSS, que são as bases para construir interfaces web eficazes e atraentes.</p>
                 
-                <p>Recentemente, criei este site como parte de um projeto para a disciplina de Desenvolvimento Web. Este projeto não só me permitiu aplicar o que aprendi sobre HTML e CSS, mas também me ofereceu a oportunidade de explorar a criação e o design de um site completo. O site é dedicado à artista clássica Artemísia Gentileschi, e reflete meu interesse pela interseção entre arte e tecnologia.</p>
+                <p>Recentemente, criei este site como parte de um projeto para a disciplina de Desenvolvimento Web 1. Este projeto não só me permitiu aplicar o que aprendi sobre HTML e CSS, mas também me ofereceu a oportunidade de explorar a criação e o design de um site completo. O site é dedicado à artista clássica Artemísia Gentileschi, e reflete meu interesse pela interseção entre arte e tecnologia.</p>
                 
                 <p>Estou sempre em busca de novas oportunidades para aprender e crescer profissionalmente. Com cada projeto, meu objetivo é aprimorar minhas habilidades, experimentar novas tecnologias e contribuir para soluções criativas e funcionais no mundo digital.</p>
                 
@@ -32,29 +39,39 @@
                     <li>Desenvolvimento Web Full Stack</li>
                     <li>Aprendizado de HTML e CSS</li>
                     <li>Programação em JavaScript e Java</li>
-                    <li>Desenvolvimento de Aplicações Web</li>
-                </ul>
-    
-                <h2 class="title">Objetivos</h2>
-                <p>Meu objetivo é me tornar um desenvolvedor full stack competente, capaz de criar soluções completas e inovadoras para problemas complexos. Estou sempre em busca de novos desafios e oportunidades para expandir minhas habilidades e conhecimentos.</p>
-                
-                <h2>Redes Sociais e Contatos</h2>
-                <p>Você pode me encontrar nas seguintes plataformas:</p>
-                <ul class="social-links">
-                    <li><a href="https://www.linkedin.com/in/thawany-lima/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                    <li><a href="https://github.com/thawanylima" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li>Desenvolvimento de Aplicações</li>
                 </ul>
             </section>
-
+        </div>
+        <div id="formulario">
+            <h2 class="title">Entre em contato!</h2>
+            <form action="form.html" method="get">
+                <label for="fnome">Nome:</label>
+                <input type="text" name="fnome" id="fnome" placeholder="Digite seu nome"><br>
+                <label for="femail">Email:</label>
+                <input type="email" name="femail" id="femail" placeholder="Digite seu email"><br>
+                <label for="fmotivo">Motivo para contato</label>
+                <select id="fmotivo">
+                    <option value="" disabled selected>Selecione o motivo</option>
+                    <option value="duvida">Dúvidas</option>
+                    <option value="sugestao">Sugestões de Conteúdo</option>
+                    <option value="correçao">Correção de Informação</option>
+                    <option value="feedback">Feedback sobre o Site</option>
+                    <option value="parcerias">Parcerias</option>
+                    <option value="outros">Outro motivo</option>
+                </select><br>
+                <label for="farea">Digite aqui sua mensagem:</label><br>
+                <textarea id="farea" name="farea" maxlength="200" cols="50" rows="5"></textarea ><br>
+                <input type="submit" value="Enviar" >
+            </form>
         </div>
         <footer>
             <nav class="nav-links">
                 <ul>
-                    <li><a href="index.html" target="_blank">Início</a></li>
-                    <li><a href="obras.html" target="_blank">Obras</a></li>
-                    <li><a href="autor.html" target="_blank">Sobre o Autor</a></li>
+                    <li><a href="index.html" target="_self">Início</a></li>
+                    <li><a href="obras.html" target="_self">Obras</a></li>
+                    <li><a href="autor.html" target="_self">Sobre o Autor</a></li>
                 </ul>
         </footer>
-
     </body>
 </html>
