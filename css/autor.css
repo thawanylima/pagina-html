@@ -23,9 +23,6 @@ ul {
     padding-left: 20px;
     list-style-type: none;
 }
-ul.social-links a:hover {
-    text-decoration: underline;
-}
 .nav-links ul li a {
     text-decoration: none;
     color: #2a7fda;
@@ -47,7 +44,7 @@ ul.social-links a:hover {
 }
 .story-img {
     max-width: 100%; /* Garante que a imagem não exceda o container */
-    height: auto; /* Manter a proporção da imagem */
+    height: auto; /* Mantem a proporção da imagem */
     margin: 20px auto; 
     border-radius: 10pc;
 }
